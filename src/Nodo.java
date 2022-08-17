@@ -7,5 +7,4 @@ public class Nodo {
         this.siguiente = null;
     }
 
-
 }

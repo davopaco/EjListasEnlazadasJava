@@ -17,12 +17,7 @@ public class Lista {
     }
 
     public boolean estaVacio(){
-        if(cabeza==null){
-            return true;
-        }
-        else{
-            return  false;
-        }
+        return cabeza == null;
     }
 
     public void agregar(Object o){
