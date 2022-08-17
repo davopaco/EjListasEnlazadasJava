@@ -92,6 +92,7 @@ public class Lista {
         if(nodoRef.siguiente.info==o){
             nodoRef.siguiente=nodoRef.siguiente.siguiente;
         }
+        tamano--;
     }
 
     public void buscar(Object o){

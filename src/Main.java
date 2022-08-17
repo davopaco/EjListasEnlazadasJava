@@ -9,6 +9,7 @@ public class Main {
         lis.agregarInicio(90);
         lis.agregar(45,7);
         lis.buscar(45);
+        lis.borrar(9);
         lis.imprimirRecorrido();
     }
 }
